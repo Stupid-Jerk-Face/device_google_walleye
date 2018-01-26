@@ -108,3 +108,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Native video calling
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.vt_avail_ovr=1
+
+# ModemService
+PRODUCT_COPY_FILES += \
+  device/google/walleye/modemservice.xml:system/etc/sysconfig/modemservice.xml
