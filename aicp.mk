@@ -19,6 +19,12 @@ TARGET_MANUFACTURER := Google
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=walleye \
     BUILD_FINGERPRINT=google/walleye/walleye:8.1.0/OPM1.171019.019/4527419:user/release-keys \
-    PRIVATE_BUILD_DESC="walleye-user 8.1.0 OPM1.171019.019 4527419 release-keys"
+    PRIVATE_BUILD_DESC="OPM1.171019.019"
 
 $(call inherit-product-if-exists, vendor/google/walleye/walleye-vendor.mk)
+
+# Add gapps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
+# Add Google prebuilt apps
+$(call inherit-product-if-exists, vendor/gapps/prebuilt.mk)
