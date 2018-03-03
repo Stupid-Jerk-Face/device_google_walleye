@@ -27,4 +27,4 @@ $(call inherit-product-if-exists, vendor/google/walleye/walleye-vendor.mk)
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
 # Add Google prebuilt apps
-$(call inherit-product-if-exists, vendor/gapps/prebuilt.mk)
+#$(call inherit-product-if-exists, vendor/gapps/prebuilt.mk)
