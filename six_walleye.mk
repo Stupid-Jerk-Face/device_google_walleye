@@ -26,8 +26,8 @@ $(call inherit-product, vendor/six/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-# Call some device specific files for walleye
-$(call inherit-product, device/google/walleye/device-walleye.mk)
+# Inherit device configuration
+$(call inherit-product, device/google/walleye/aosp_walleye.mk)
 $(call inherit-product, vendor/google/walleye/walleye-vendor.mk)
 
 # Audio effects
