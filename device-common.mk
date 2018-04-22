@@ -97,6 +97,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.notify_nfc=1
 
+# Video calling prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.vt_avail_ovr=1
+
 # ModemService
 PRODUCT_COPY_FILES += \
   device/google/muskie/modemservice.xml:system/etc/sysconfig/modemservice.xml
