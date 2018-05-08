@@ -92,8 +92,8 @@ lib/librcc.so
 -priv-app/VzwOmaTrigger/VzwOmaTrigger.apk;PRESIGNED
 
 # VZW
--app/vzw_msdc_api/vzw_msdc_api.apk:app/vzw_msdc_api/vzw_msdc_api.apk:PRESIGNED
--app/VZWAPNLib/VZWAPNLib.apk:app/VZWAPNLib/VZWAPNLib.apk:PRESIGNED
+-app/vzw_msdc_api/vzw_msdc_api.apk:app/vzw_msdc_api/vzw_msdc_api.apk;PRESIGNED
+-app/VZWAPNLib/VZWAPNLib.apk:app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
 etc/permissions/com.android.vzwomatrigger.xml
 etc/permissions/com.verizon.apn.xml
 etc/permissions/com.verizon.embms.xml
@@ -103,4 +103,4 @@ etc/permissions/com.verizon.services.xml
 etc/permissions/features-verizon.xml
 etc/permissions/obdm_permissions.xml
 etc/permissions/vzw_mvs_permissions.xml
--framework/VerizonUnifiedSettings.jar:PRESIGNED
+-framework/VerizonUnifiedSettings.jar;PRESIGNED
