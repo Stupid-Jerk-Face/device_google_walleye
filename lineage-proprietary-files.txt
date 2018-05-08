@@ -69,8 +69,6 @@ lib/librcc.so
 -app/embms/embms.apk
 -app/ims/ims.apk
 -app/Tycho/Tycho.apk;PRESIGNED
--app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
--app/vzw_msdc_api/vzw_msdc_api.apk;PRESIGNED
 
 # Priv-app
 -priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
